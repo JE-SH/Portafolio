@@ -111,7 +111,7 @@ html {
     display: block;
 }
 
-.main-nav li a {
+.main-nav li a{
     height: 70px;
     line-height: 70px;
     display: inline-block;
@@ -124,9 +124,20 @@ html {
 }
 
 .main-nav li:hover a,
-.main-nav li.active a {
+.main-nav li.active a,.btn-white:hover {
     background: #fff;
     color: #8c363e;
+}
+.btn-white{
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #a43f49;
+    width: 50%;
+    transition: all 0.5s; 
 }
 
 /* Sidebar Menu */
@@ -208,7 +219,7 @@ html {
 
 .menu a {
     text-decoration: none;
-    color: inherit;
+    /* color: inherit; */
 }
 
 .menu {
